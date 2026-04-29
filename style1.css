@@ -79,11 +79,15 @@
 }
 .social_media{
     color: white;
-    opacity: 0.3;
+    opacity: 0.6;
     position: absolute;
     
     left:50px;
     bottom: 50px;
+    transition: opacity 0.3s linear;
+}
+.social_media:hover{
+    opacity: 1;
 }
 .social_media i{
     padding: 0 5px;
@@ -103,7 +107,7 @@
     font-size: 40px;
     transition: all 0.5s linear;
 }
-.sidebar_menu.social_media i :hover{
+.social_media a:hover i{
     opacity: 1;
     transform: scale(2);
 }
