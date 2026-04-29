@@ -4,9 +4,11 @@
 }
 .main_box{
     background: url(robert-shunev-mS1nlYbq1kA-unsplash.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
-    
+    background-attachment: fixed;
+    position: relative;
+
 
 
 }
@@ -121,12 +123,7 @@
 
 /* Gallery Section */
 .gallery_section {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
-    padding: 80px 40px 40px 40px;
+    padding: 80px 40px 60px 40px;
     box-sizing: border-box;
 }
 
